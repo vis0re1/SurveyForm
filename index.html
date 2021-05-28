@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <header>
         <h1 id="title">Sololearn Survey Form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <p id="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
     </header>
+    <main>
+        <form action="" id="survey-form">
+            <fieldset>
+                <legend>Personal Informations:</legend>
+                <label for="name" id="name-label">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Your name" />
 
+                <label for="email" id="email-label">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Your email" />
+
+                <label for="number" id="number-label">Age (optional): </label>
+                <input type="number" name="number" id="number" placeholder="Your age" />
+            </fieldset>
+
+            <p>What is your favorite feature of Sololearn?</p>
+            <input type="checkbox" id="challenges" name="challenges" value="challenges" />
+            <label for="challenges">Challenges</label>
+            <input type="checkbox" id="playground" name="playground" value="playground" />
+            <label for="playground">Playground</label>
+            <input type="checkbox" id="discuss" name="discuss" value="discuss" />
+            <label for="vehicle3">Discuss</label>
+            <input type="checkbox" id="courses" name="courses" value="courses" />
+            <label for="vehicle3">Courses</label>
+
+            <p>How likely are you to recommend our app to a friend or colleague?</p>
+            <input type="radio" id="like" name="like" value="like" />
+            <label for="like">Very likely</label>
+            <input type="radio" id="unsure" name="like" value="unsure" />
+            <label for="unsure">Unsure</label>
+            <input type="radio" id="unlike" name="like" value="unlike" />
+            <label for="unlike">Not likely</label>
+
+            <label for="comments">Additional comments or suggestions ?</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+            <button id="submit">Submit</button>
+        </form>
+    </main>
 </body>
+
 </html>
