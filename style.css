@@ -26,9 +26,10 @@ header {
 input {
     padding: 5px;
     border: none;
-    background-color: #f3e8e8;
+    background-color: #f7f1f1;
     border-bottom: 1px solid #b3aeae;
     border-radius: 8px;
+    height: 30px;
 }
 
 
