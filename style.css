@@ -36,6 +36,18 @@ input {
   width: 100px;
 }
 
+button {
+  width: 250px;
+  height: 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-style: italic;
+  background-color: #9495A3;
+  color: #FFFFFF;
+  margin: 5px auto;
+}
 
 
 
