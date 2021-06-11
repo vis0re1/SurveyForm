@@ -38,6 +38,14 @@ fieldset input {
   width: 100px;
 }
 
+@media (min-width: 400px) {
+    .container {
+        width: 300px;
+        border: 1px solid red;
+        margin: 50px auto;
+    }
+}
+
 
 
 
