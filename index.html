@@ -19,7 +19,8 @@
         <fieldset>
           <legend>Personal Informations:</legend>
           <label for="name" id="name-label">Name: </label>
-          <input type="text" name="name" id="name" placeholder="Your name" />
+          <input type="text" name="name" id="name" placeholder="Your name"
+          maxlength="20"/>
           <br />
           <label for="email" id="email-label">Email: </label>
           <input
@@ -27,6 +28,7 @@
             name="email"
             id="email"
             placeholder="Your email"
+            pattern=".+@globex.com" size="25" required
           />
           <br />
           <label for="number" id="number-label">Age (optional): </label>
@@ -35,6 +37,8 @@
             name="number"
             id="number"
             placeholder="Your age"
+            min = 16
+            max = 99
           />
         </fieldset>
         <p>What is your favorite feature of Sololearn?</p>
@@ -44,7 +48,8 @@
           name="challenges"
           value="challenges"
         />
-        <label for="challenges">Challenges</label>
+        <label for="challenges">Challenges</label><br>
+      
         <input
           type="checkbox"
           id="playground"
