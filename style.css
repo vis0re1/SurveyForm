@@ -17,13 +17,15 @@ header {
 
 #description {
     font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
 }
 
 #survey-form {
     padding: 5px;
 }
 
-input {
+fieldset input {
     padding: 5px;
     border: none;
     background-color: #f7f1f1;
