@@ -25,6 +25,12 @@ header {
     padding: 5px;
 }
 
+fieldset {
+    width: 400px;
+    margin: auto;
+    border: none;
+}
+
 fieldset input {
     padding: 5px;
     border: none;
@@ -38,9 +44,9 @@ fieldset input {
   width: 100px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 860px) {
     .container {
-        width: 300px;
+        width: 800px;
         border: 1px solid red;
         margin: 50px auto;
     }
