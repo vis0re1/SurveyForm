@@ -1,6 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    color: #424242;
 }
 
 * {
@@ -17,13 +19,21 @@ header {
 
 #description {
     font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
 }
 
 #survey-form {
     padding: 5px;
 }
 
-input {
+fieldset {
+    width: 400px;
+    margin: auto;
+    border: none;
+}
+
+fieldset input {
     padding: 5px;
     border: none;
     background-color: #f7f1f1;
@@ -36,6 +46,7 @@ input {
   width: 100px;
 }
 
+<<<<<<< ours
 button {
   width: 250px;
   height: 30px;
@@ -48,6 +59,16 @@ button {
   color: #FFFFFF;
   margin: 5px auto;
 }
+=======
+@media (min-width: 860px) {
+    .container {
+        width: 800px;
+        border: 1px solid red;
+        margin: 50px auto;
+    }
+}
+>>>>>>> theirs
+
 
 
 
