@@ -38,6 +38,7 @@ main p {
     border-bottom: 1px solid #b3aeae;
     border-radius: 8px;
     height: 30px;
+    width: 250px;
 }
 
 #number {
