@@ -44,6 +44,12 @@ main p {
   width: 100px;
 }
 
+#comments {
+  background-color: #D6D7E1;
+  border: none;
+  border-radius: 10px;
+}
+
 button {
   width: 250px;
   height: 30px;
