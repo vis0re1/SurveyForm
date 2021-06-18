@@ -25,6 +25,8 @@ header {
 
 #survey-form {
     padding: 5px;
+    width: 350px;
+    margin: auto;
 }
 
 main p {
