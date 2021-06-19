@@ -51,6 +51,7 @@ main p {
   background-color: #D6D7E1;
   border: none;
   border-radius: 10px;
+  width: 100%;
 }
 
 button {
