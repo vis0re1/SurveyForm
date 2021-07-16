@@ -53,6 +53,9 @@ main p {
   border: none;
   border-radius: 10px;
   width: 100%;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 600;
 }
 
 button {
