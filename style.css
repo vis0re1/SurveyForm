@@ -1,47 +1,51 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    color: #424242;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #424242;
 }
 
 * {
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header {
-    text-align: center;
-    color: #424242;
-    font-weight: 800;
-    padding: 5px;
+  text-align: center;
+  color: #424242;
+  font-weight: 800;
+  padding: 5px;
 }
 
 #description {
-    font-weight: 500;
-    font-size: 15px;
-    font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: italic;
 }
 
 #survey-form {
-    padding: 5px;
-    width: 350px;
-    margin: auto;
+  padding: 5px;
+  width: 350px;
+  margin: auto;
 }
 
 main p {
   font-weight: 600;
 }
-    
-#name, #email, #number {
-    padding: 5px;
-    border: none;
-    background-color: #D6D7E1;
-    border-bottom: 1px solid #b3aeae;
-    border-radius: 8px;
-    height: 30px;
-    width: 250px;
+
+#name,
+#email,
+#number {
+  padding: 5px;
+  border: none; 
+  background-color: #d6d7e1;
+  border-bottom: 1px solid #b3aeae;
+  border-radius: 8px;
+  height: 30px;
+  width: 250px;
+  font-weight: 600;
 }
 
 #number {
@@ -49,7 +53,7 @@ main p {
 }
 
 #comments {
-  background-color: #D6D7E1;
+  background-color: #d6d7e1;
   border: none;
   border-radius: 10px;
   width: 100%;
@@ -66,20 +70,25 @@ button {
   border-radius: 8px;
   outline: none;
   font-style: italic;
-  background-color: #9495A3;
-  color: #FFFFFF;
+  background-color: #9495a3;
+  color: #ffffff;
   margin: 5px auto;
 }
 
-@media (min-width: 860px) {
-    .container {
-        width: 800px;
-        border: 1px solid red;
-        margin: 50px auto;
-    }
+@media (max-width: 360px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  #description {
+    font-size: 13px;
+  }
 }
 
-
-
-
-
+@media (min-width: 860px) {
+  .container {
+    width: 800px;
+    border: 1px solid red;
+    margin: 50px auto;
+  }
+}
