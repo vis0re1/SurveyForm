@@ -39,7 +39,7 @@ main p {
 #email,
 #number {
   padding: 5px;
-  border: none; 
+  border: none;
   background-color: #d6d7e1;
   border-bottom: 1px solid #b3aeae;
   border-radius: 8px;
@@ -50,6 +50,14 @@ main p {
 
 #number {
   width: 100px;
+}
+
+#dropdown {
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-weight: 500;
 }
 
 #comments {
