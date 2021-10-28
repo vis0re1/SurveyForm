@@ -2,8 +2,9 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #C3C5D7;
   color: #424242;
+  font-weight: 500;
 }
 
 * {
@@ -15,7 +16,7 @@ html {
 header {
   text-align: center;
   color: #424242;
-  font-weight: 800;
+  font-weight: 900;
   padding: 5px;
 }
 
